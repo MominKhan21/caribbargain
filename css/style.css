@@ -84,8 +84,7 @@ font-weight: 500;}
 font-size: 15px;
 font-weight: 400;}
 
-.nav7{background: white;
-border: solid black 1px;}
+.nav7{background: white;}
 
 .nav7 img{margin-left: -12px;
 height: 260px;
@@ -115,7 +114,7 @@ del{color: white;}
 .tooltiptext {
     visibility: hidden;
     background-color: #ebad1e;
-    height: 140px;
+    height: 150px;
     color: #fff;
     text-align: left;
     border-radius: 5px;
@@ -123,8 +122,8 @@ del{color: white;}
     padding: 15px;
     position: absolute;
     z-index: 1000;
-    bottom: -400%; /* Position the tooltip above the element */
-    left: 147%;
+    bottom: -350%; /* Position the tooltip above the element */
+    left: 138%;
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
@@ -208,3 +207,28 @@ padding-top: 20px;}
 width: 30px;
 margin: 1px;
 cursor: pointer;}
+
+
+
+.nav01{border-bottom: solid black 1px}
+
+.nav01 h1{font-size: 20px;
+padding-top: 20px;
+padding-left: 20px;}
+
+.nav01 a{text-decoration: none;
+color: black;
+margin-left: 30px;
+font-size: 15px;
+line-height: 40px;}
+
+.nav03 img{height: 250px;
+width: 250px;
+margin-left: 375px;
+margin-top: 50px;}
+
+.nav03 h1{font-size: 25px;
+font-weight: 600;
+text-align: center;}
+
+.nav03 p{text-align: center;}
