@@ -1,0 +1,205 @@
+*{margin: 0;
+padding: 0;}
+
+nav{position: absolute;}
+
+nav img{height: 40px;
+width: 180px;}
+
+nav ul li a{text-decoration: none;
+padding-left: 40px;
+color: grey;
+margin-right: 50px !important;
+margin: 15px;}
+
+.btn{background: #ebad1e;
+color: white !important;
+border: solid #ebad1e 1px;
+padding: 11px 15px;}
+
+.btn1{background: white;
+border: solid grey 1px;
+color: black;
+padding: 12px 30px;
+border-radius: 5px;}
+
+.nav1 a{text-decoration: none;
+color: black;}
+
+.d-flex input{width: 550px;
+height: 50px;
+margin-left: 180px;
+border-radius: 5px;
+padding-left: 10px;
+border: solid #2a89ba 2px;}
+
+header a{font-size: 20px;}
+
+.d-flex button{background: #2a89ba;
+border: solid #2a89ba 1px;}
+
+.nav2{margin-top: 30px;
+margin-bottom: 30px;
+border-bottom: solid silver 1px;}
+
+.nav2 a {text-decoration: none;
+color: grey;
+font-size: 18px;
+line-height: -0px;}
+
+.nav4{margin-top: 80px;
+margin-bottom: 50px;}
+
+.nav4 h1{font-size: 30px;
+margin-top: 15px;
+color: #ed6c02}
+
+.nav4 p{padding-top: 15px;
+color: #ed6c02}
+
+footer{background: #efefef}
+
+main{background: #efefef;
+margin-top: 40px;width: 100%;
+height: 550px;}
+
+.nav6 h1{color: black;
+font-size: 35px;
+padding-top: 70px}
+
+.nav5{background: white;}
+
+.nav5 img{margin: 2px;
+height: 260px;}
+
+.nav5 p{font-size: 20px;
+font-weight: 600;}
+
+.nav5 p1{color: grey;
+font-size: 18px;
+font-weight: 500;}
+
+.nav5 p2{color: grey;
+font-size: 15px;
+font-weight: 400;}
+
+.nav7{background: white;
+border: solid black 1px;}
+
+.nav7 img{margin-left: -12px;
+height: 260px;
+width: 374px}
+
+.nav7 p{font-size: 20px;
+font-weight: 600;}
+
+.nav7 p1{color: grey;
+font-size: 18px;
+font-weight: 500;}
+
+.nav7 p2{color: grey;
+font-size: 15px;
+font-weight: 400;}
+
+del{color: white;}
+
+
+	/* Tooltip container */
+.nav2 {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltiptext {
+    visibility: hidden;
+    background-color: #ebad1e;
+    height: 140px;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    width: 250px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1000;
+    bottom: -400%; /* Position the tooltip above the element */
+    left: 147%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+border: solid white 1px;}
+
+/* Show the tooltip when hovering over the container */
+.nav2:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav8 img{height: 450px;
+width: 350px;
+margin-top: 50px;}
+
+.nav9 h1{margin-top: 150px;
+font-size: 50px;
+font-weight: 600;
+color: white;}
+
+.nav9 p{font-size: 20px;
+color: white;}
+
+section{background: #eb3b23}
+
+.nav2 a:hover{color: #eb3b23;}
+
+.btn:hover{background: #eb3b23;
+border: solid #eb3b23 1px;}
+
+.btn2{border: solid #2a89ba 2px;
+padding: 8px 20px;
+border-radius: 5px;
+margin-left: 100px;}
+
+.nav9 img{width: 200px;
+height: 80px;}
+
+.nav10{display: flex;
+justify-content: center;
+margin-top: 50px;}
+
+.nav10 p{font-size: 20px;
+text-align: center;}
+
+.nav11 p{font-size: 20px;
+text-align: center;}
+
+.nav12 a{text-decoration: none;
+color: black;
+margin: 30px;
+font-weight: 600;
+margin-left: 40px;
+font-size: 20px;}
+
+.nav12 a:hover{border-bottom: solid black 2px;}
+
+article{background: #efefef;
+height: 370px;}
+
+.nav13 p{color: black;
+font-size: 21px;
+padding: 30px;}
+
+.nav13 a{text-decoration: none;
+margin-top: 60px;
+background: #eb3b23;
+border: solid #eb3b23 2px;
+color: white;
+padding: 10px 20px;
+border-radius: 7px;}
+
+.nav14 h1{font-size: 25px;
+padding-top: 20px;}
+
+.nav14 img{height: 30px;
+width: 30px;
+margin: 1px;
+cursor: pointer;}
